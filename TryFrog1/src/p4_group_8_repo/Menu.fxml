@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="p4_group_8_repo.MenuContoller">
+   <children>
+      <Button layoutX="265.0" layoutY="247.0" mnemonicParsing="false" onAction="#onPlayClicked" prefHeight="49.0" prefWidth="87.0" text="Play" />
+      <Button layoutX="263.0" layoutY="333.0" mnemonicParsing="false" onAction="#onHighScoreClicked" prefHeight="49.0" prefWidth="87.0" text="HighScore" />
+      <Button layoutX="265.0" layoutY="426.0" mnemonicParsing="false" onAction="#onExitClicked" prefHeight="49.0" prefWidth="87.0" text="Exit" />
+   </children>
+</Pane>

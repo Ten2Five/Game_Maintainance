@@ -22,8 +22,8 @@ public class Animal extends Actor {
 	int end = 0;
 	private boolean second = false;
 	boolean noMove = false;
-	double movement = 13.3333333*2;
-	double movementX = 10.666666*2;
+	double movement = 15*2;
+	double movementX = 10*2;
 	int imgSize = 40;
 	boolean carDeath = false;
 	boolean waterDeath = false;
@@ -248,7 +248,7 @@ public class Animal extends Actor {
 			setX(300);
 			setY(679.8+movement);
 		}
-		else if (getY()<413){
+		else if (getY()<325){
 			waterDeath = true;
 			//setX(300);
 			//setY(679.8+movement);
